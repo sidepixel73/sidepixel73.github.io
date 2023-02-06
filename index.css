@@ -1,9 +1,32 @@
+@media only screen and (max-width: 600px) {
+    body{
+        background-color: #40ff00;
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+}
 body {
     background-color: black;
     color: white;
     text-align: center;
+    margin-left: 23%;
+    margin-right: 23%;
+    border: 2px outset white
 }
-section {
-    display: grid;
-    grid-template-columns: auto auto;
+#header {
+    font-family: Arial;
+}
+nav {
+    display: flex;
+    justify-content: space-evenly;
+}
+.navButton {
+    color: white;
+}
+.navButton:hover {
+    color: #40ff00;
+}
+.separetor {
+    margin: 12px;
+    border: 2px outset white
 }
