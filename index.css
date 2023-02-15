@@ -2,24 +2,30 @@ body {
     background-color: black;
     margin-left: 35%;
     margin-right: 35%;
+    border: 2px outset white;
 }
 @media only screen and (max-width: 1080px) {
     body {
-        margin: 0px;
+        margin-left: 0px;
+        margin-right: 0px;
         border-width: 4px;
     }
 }
 .main {
     text-align: center;
-    border: 2px outset white;
 }
 #langText {
     color: white;
-    font-size: 28px;
+    font-family: Arial;
+    font-size: 30px;
     margin-bottom: 4px;
 }
 .btns > form {
     display: inline;
+}
+.emptyspace {
+    display: inline;
+    margin: 12px;
 }
 .btnStyle {
     background-color: black;

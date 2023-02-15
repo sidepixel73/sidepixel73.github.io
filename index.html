@@ -4,16 +4,24 @@
         <link rel="stylesheet" href="/index.css">
         <script src="index.js"></script>
         <title>Choose Language</title>
+        <link rel="apple-touch-icon" sizes="180x180" href="/icons/apple-touch-icon.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="/icons/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="/icons/favicon-16x16.png">
+        <link rel="manifest" href="/icons/site.webmanifest">
+        <link rel="mask-icon" href="/icons/safari-pinned-tab.svg" color="#5bbad5">
+        <meta name="msapplication-TileColor" content="#00a300">
+        <meta name="theme-color" content="#ffffff">
     </head>
     <body>
         <div class="main">
-            <p id="langText">Choose Language</p>
+            <h1 id="langText">Choose Language</h1>
             <div class="btns">
                 <form action="/english_main.html">
                     <input class="btnStyle" type="submit" value="English" onmouseover="langTextChange('english')"/>
                 </form>
+                <div class="emptyspace"></div>
                 <form action="/russian_main.html">
-                    <input class="btnStyle" type="submit" value="Россия" onmouseover="langTextChange('russian')"/>
+                    <input class="btnStyle" type="submit" value="Русский" onmouseover="langTextChange('russian')"/>
                 </form>
             </div>
         </div>
