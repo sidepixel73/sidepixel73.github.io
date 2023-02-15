@@ -1,15 +1,26 @@
 body {
     background-color: black;
+    text-align: center;
     margin-left: 35%;
     margin-right: 35%;
+    margin-top: 30vh;
     border: 2px outset white;
+    
 }
 @media only screen and (max-width: 1080px) {
     body {
         margin-left: 0px;
         margin-right: 0px;
         border-width: 4px;
+        font-size: 300%;
     }
+}
+.separetor {
+    margin-left: 12px;
+    margin-right: 12px;
+    margin-top: 12px;
+    margin-bottom: 3px;
+    border: 2px outset white
 }
 .main {
     text-align: center;

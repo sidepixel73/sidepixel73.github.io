@@ -33,11 +33,9 @@ nav {
     border-color: #40ff00;
 }
 .navButton#lang {
-    padding: 0;
-    border: 0px;
     position: absolute;
     top: 20px;
-    right: 24%;
+    right: 12px;
 }
 .separetor {
     margin: 12px;
